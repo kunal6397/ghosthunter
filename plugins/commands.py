@@ -40,6 +40,9 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+        ],[      
+            InlineKeyboardButton("Movie Group", url="https://t.me/+axGvZraAH6Q3NTg1"),
+            InlineKeyboardButton("Lear Hacking", url="https://t.me/hacking4free")
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ") 
         await asyncio.sleep(2)
@@ -76,6 +79,9 @@ async def start(client, message):
             ],[      
             InlineKeyboardButton("Hᴇʟᴩ 🕸️", callback_data="help"),
             InlineKeyboardButton("Aʙᴏᴜᴛ ✨", callback_data="about")
+        ],[      
+            InlineKeyboardButton("Movie Group", url="https://t.me/+axGvZraAH6Q3NTg1"),
+            InlineKeyboardButton("Lear Hacking", url="https://t.me/hacking4free")
         ]]
         m = await message.reply_sticker("CAACAgUAAxkBAAEBvlVk7YKnYxIHVnKW2PUwoibIR2ygGAACBAADwSQxMYnlHW4Ls8gQHgQ")
         await asyncio.sleep(2)
